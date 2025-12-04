@@ -141,7 +141,7 @@ export default [
   eslintConfigPrettier,
 
   {
-    ignores: ['**/node_modules/**', '**/dist/**', 'vite.config.*.ts', 'manifest.ts'],
+    ignores: ['**/node_modules/**', '**/dist/**', 'vite.config.*.ts'],
   },
 
   {
