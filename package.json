@@ -1,7 +1,7 @@
 {
   "name": "figma-plugin-template",
   "version": "1.0.0",
-  "description": "Figma Plugin Template",
+  "description": "A Figma Plugin boilerplate built with React + Vite.",
   "private": true,
   "type": "module",
   "scripts": {
