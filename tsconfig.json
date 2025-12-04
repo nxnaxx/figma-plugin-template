@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma"],
+    "baseUrl": "./src",
+    "paths": {
+      "@common/*": ["common/*"],
+      "@ui/*": ["ui/*"],
+      "@plugin/*": ["plugin/*"]
+    }
+  },
+  "include": ["src"]
+}
